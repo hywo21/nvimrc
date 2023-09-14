@@ -106,6 +106,12 @@ require("lazy").setup({
 		dependencies = { "williamboman/mason-lspconfig.nvim" },
 	},
 	{
+		-- git管理
+		event = "VeryLazy",
+		"tpope/vim-fugitive",
+		cmd = "Git"
+	},
+	{
 		-- lsp管理
 		event = "VeryLazy",
 		"williamboman/mason.nvim",
